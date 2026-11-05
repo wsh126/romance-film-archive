@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b10">
+  <title>Romance — Films We Stay Alive For</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="is-intro">
+  <main class="site" id="site" data-view="intro">
+    <section class="intro" id="intro" tabindex="0" aria-label="进入电影收藏">
+      <div class="intro__image" aria-hidden="true"></div>
+      <div class="intro__veil" aria-hidden="true"></div>
+      <div class="intro__grain" aria-hidden="true"></div>
+
+      <blockquote class="intro__quote">
+        Poetry, beauty, romance, love
+        <span>— these are what we stay alive for.</span>
+      </blockquote>
+
+      <div class="intro__enter" aria-hidden="true">
+        <span></span>
+        <i></i>
+      </div>
+    </section>
+
+    <section class="library" id="library" aria-label="电影收藏书架" aria-hidden="true">
+      <div class="library__glow" aria-hidden="true"></div>
+      <div class="library__grid" aria-hidden="true"></div>
+
+      <header class="library__header">
+        <button class="wordmark" id="back-to-intro" type="button" aria-label="返回首页">
+          <span>ROMANCE</span>
+          <small>AN ARCHIVE OF STILL MOVING</small>
+        </button>
+        <div class="library__heading">
+          <p>FILMS WE STAY ALIVE FOR</p>
+          <span>六部电影 · 六种凝视</span>
+        </div>
+      </header>
+
+      <section class="shelf" id="shelf" aria-label="横向电影书架">
+        <div class="shelf__rail" aria-hidden="true"></div>
+        <div class="track" id="track"></div>
+        <div class="shelf__reflection" aria-hidden="true"></div>
+      </section>
+
+      <footer class="library__footer">
+        <div class="interaction-hint">
+          <span class="interaction-hint__icon" aria-hidden="true"></span>
+          <span>悬停展开</span>
+          <i></i>
+          <span>滚轮横移</span>
+        </div>
+        <div class="current-film" aria-live="polite">
+          <span id="current-number">01</span>
+          <i></i>
+          <span id="current-title">爱乐之城</span>
+        </div>
+      </footer>
+
+      <div class="scroll-meter" aria-hidden="true">
+        <span id="scroll-meter-fill"></span>
+      </div>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>
